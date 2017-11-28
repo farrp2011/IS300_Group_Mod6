@@ -21,7 +21,7 @@ function resize()
         var newHeight = Math.round(profilesViews[i].getBoundingClientRect().width * GOLD_RATIO);
         //profilesViews[i].setAttribute("style","height: "+newHeight+"px");//backup
         profilesViews[i].style.height = newHeight+"px";//it wants a string -- so annoying
-        console.log("Current Height = "+profilesViews[i].style.height);
+        //console.log("Current Height = "+profilesViews[i].style.height);
     }
 }
 resize();//need to run it when we first open the page

@@ -13,7 +13,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title><?php echo SITE_NAME_SHORT?> -- </title>
+    <title><?php echo SITE_NAME_SHORT?> -- Profiles</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -123,7 +123,7 @@
 
     <footer class="bg-faded text-center py-5">
       <div class="container">
-        <p class="m-0">Copyright &copy; Your Website 2017</p>
+        <p class="m-0">Copyright &copy; <?php echo GROUP_NAME ?> 2017</p>
       </div>
     </footer>
 

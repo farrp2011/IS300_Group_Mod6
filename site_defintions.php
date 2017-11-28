@@ -13,3 +13,5 @@ define("STREET", "1600 Chester Avenue");
 define("CITY", "Bremerton");
 define("STATE", "WA 98337-1699");
 define("PHONE","1(360) 792-6050");
+
+define("GROUP_NAME","The Cuttlefish Group");

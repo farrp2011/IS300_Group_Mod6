@@ -92,7 +92,7 @@ Paul is cool and you need to give him money
               <img class="d-block img-fluid w-100" src="img/slide-3.jpg" alt="">
               <div class="carousel-caption d-none d-md-block title_box">
                 <h3 class="text-shadow">Paul Farr</h3>
-                <p class="text-shadow">Lets split a six pack.</p>
+                <p class="text-shadow">Lets split a six pack together.</p>
               </div>
             </div>
           </div>
@@ -142,7 +142,7 @@ Paul is cool and you need to give him money
 
     <footer class="bg-faded text-center py-5">
       <div class="container">
-        <p class="m-0">Copyright &copy; Your Website 2017</p>
+        <p class="m-0">Copyright &copy; <?php echo GROUP_NAME ?> 2017</p>
       </div>
     </footer>
 
