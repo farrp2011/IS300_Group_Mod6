@@ -53,7 +53,7 @@ Paul is cool and you need to give him money
               <a class="nav-link text-uppercase text-expanded" href="about.php">About</a>
             </li>
             <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="blog.php">Blog</a>
+              <a class="nav-link text-uppercase text-expanded" href="profiles.php">Profiles</a>
             </li>
             <li class="nav-item px-lg-4">
               <a class="nav-link text-uppercase text-expanded" href="contact.php">Contact</a>
@@ -91,8 +91,8 @@ Paul is cool and you need to give him money
             <div class="carousel-item">
               <img class="d-block img-fluid w-100" src="img/slide-3.jpg" alt="">
               <div class="carousel-caption d-none d-md-block">
-                <h3 class="text-shadow">Third Slide</h3>
-                <p class="text-shadow">This is the caption for the third slide.</p>
+                <h3 class="text-shadow">Paul Farr</h3>
+                <p class="text-shadow">Lets split a six pack.</p>
               </div>
             </div>
           </div>

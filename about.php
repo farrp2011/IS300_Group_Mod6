@@ -1,6 +1,12 @@
 <!DOCTYPE html>
+
+<?php 
+    include_once './site_defintions.php';
+?>
+
 <html lang="en">
 
+    
   <head>
 
     <meta charset="utf-8">
@@ -8,7 +14,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Business Casual - Start Bootstrap Theme</title>
+    <title><?php echo SITE_NAME_SHORT?> -- About</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -24,13 +30,13 @@
 
   <body>
 
-    <div class="tagline-upper text-center text-heading text-shadow text-white mt-5 d-none d-lg-block">Business Casual</div>
-    <div class="tagline-lower text-center text-expanded text-shadow text-uppercase text-white mb-5 d-none d-lg-block">3481 Melrose Place | Beverly Hills, CA 90210 | 123.456.7890</div>
+    <div class="tagline-upper text-center text-heading text-shadow text-white mt-5 d-none d-lg-block"><?php echo SITE_NAME?></div>
+    <div class="tagline-lower text-center text-expanded text-shadow text-uppercase text-white mb-5 d-none d-lg-block"><?php echo STREET?> | <?php echo CITY?>, <?php echo STATE?> | <?php echo PHONE?></div>
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light bg-faded py-lg-4">
       <div class="container">
-        <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">Start Bootstrap</a>
+        <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#"><?php echo SITE_NAME_SHORT?></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -45,7 +51,7 @@
               <a class="nav-link text-uppercase text-expanded" href="about.php">About</a>
             </li>
             <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="blog.php">Blog</a>
+              <a class="nav-link text-uppercase text-expanded" href="profiles.php">Profiles</a>
             </li>
             <li class="nav-item px-lg-4">
               <a class="nav-link text-uppercase text-expanded" href="contact.php">Contact</a>
@@ -59,10 +65,13 @@
 
       <div class="bg-faded p-4 my-4">
         <hr class="divider">
-        <h2 class="text-center text-lg text-uppercase my-0">About
-          <strong>Business Casual</strong>
+        <h2 class="text-center text-lg text-uppercase my-0"><strong><?php echo SITE_NAME_SHORT?></strong> About
+          
         </h2>
         <hr class="divider">
+      </div>
+        
+      <div class="bg-faded p-4 my-4">
         <div class="row">
           <div class="col-lg-6">
             <img class="img-fluid mb-4 mb-lg-0" src="img/slide-2.jpg" alt="">
