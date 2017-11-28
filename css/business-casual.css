@@ -64,3 +64,7 @@ hr.divider {
 .map-container iframe.clicked {
   pointer-events: auto;
 }
+
+div.title_box{
+    background-color: rgba(0,0,0,0.4);  
+}

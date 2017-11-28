@@ -64,7 +64,7 @@
 
       <div class="bg-faded p-4 my-4">
         <hr class="divider">
-        <h2 class="text-center text-lg text-uppercase my-0"><strong><?php echo SITE_NAME_SHORT?></strong> Profiles
+        <h2 class="text-center text-lg text-uppercase my-0"><strong>Profiles</strong>
           
         </h2>
         <hr class="divider">
