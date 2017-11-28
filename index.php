@@ -2,7 +2,11 @@
 <!--
 Paul is cool and you need to give him money
 -->
-<!DOCTYPE html>
+
+<?php 
+    include_once './site_defintions.php';
+?>
+
 <html lang="en">
 
   <head>
@@ -12,7 +16,7 @@ Paul is cool and you need to give him money
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Business Casual - Start Bootstrap Theme</title>
+    <title>Welcome to <?php echo SITE_NAME?></title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -28,13 +32,13 @@ Paul is cool and you need to give him money
 
   <body>
 
-    <div class="tagline-upper text-center text-heading text-shadow text-white mt-5 d-none d-lg-block">Business Casual</div>
-    <div class="tagline-lower text-center text-expanded text-shadow text-uppercase text-white mb-5 d-none d-lg-block">3481 Melrose Place | Beverly Hills, CA 90210 | 123.456.7890</div>
+    <div class="tagline-upper text-center text-heading text-shadow text-white mt-5 d-none d-lg-block"><?php echo SITE_NAME?></div>
+    <div class="tagline-lower text-center text-expanded text-shadow text-uppercase text-white mb-5 d-none d-lg-block"><?php echo STREET?> | <?php echo CITY?>, <?php echo STATE?> | <?php echo PHONE?></div>
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light bg-faded py-lg-4">
       <div class="container">
-        <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">Start Bootstrap</a>
+        <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#"><?php echo SITE_NAME_SHORT?></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -103,8 +107,8 @@ Paul is cool and you need to give him money
         </div>
         <!-- Welcome Message -->
         <div class="text-center mt-4">
-          <div class="text-heading text-muted text-lg">Welcome To</div>
-          <h1 class="my-2">Business Casual</h1>
+          <div class="text-heading text-muted text-lg">Welcome To </div>
+          <h1 class="my-2"><?php echo SITE_NAME?></h1>
           <div class="text-heading text-muted text-lg">By
             <strong>Start Bootstrap</strong>
           </div>
