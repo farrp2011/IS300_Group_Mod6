@@ -10,6 +10,7 @@ Paul is cool and you need to give him money
     <body>
         <?php
             print("Hola!");
+            print("<br/>  Como estas");
         ?>
     </body>
 </html>
