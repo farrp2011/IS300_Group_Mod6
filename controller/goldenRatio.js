@@ -2,13 +2,14 @@
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
+ * 
+ * This is for the profile page to change the height of the iframe to keep the 
+ * goden ratio as the page width grows or shrinks.
  */
 
 //console.log("I'm working!!!!");
 
 var GOLD_RATIO = .62;//Close enough 
-
-
 
 window.onresize = resize;
 function resize()

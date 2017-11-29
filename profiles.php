@@ -55,6 +55,9 @@
             <li class="nav-item px-lg-4">
               <a class="nav-link text-uppercase text-expanded" href="contact.php">Contact</a>
             </li>
+            <li class="nav-item px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="Game.php">Games</a>
+            </li>
           </ul>
         </div>
       </div>
