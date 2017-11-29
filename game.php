@@ -13,7 +13,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title><?php echo SITE_NAME_SHORT?> -- Profiles</title>
+    <title><?php echo SITE_NAME_SHORT?> -- Games</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
