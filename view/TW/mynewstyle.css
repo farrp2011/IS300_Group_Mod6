@@ -1,0 +1,104 @@
+
+  *{
+    box-sizing: border-box; 
+  }
+  /*body styling*/
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: row;
+    margin: 0;
+  }
+  /*main heading styling*/
+  h1{
+	 text-shadow: 2px 2px #25408d;
+	 font-size: 35px;
+	 letter-spacing: 15px;
+	 text-align: center;
+     background-color:white;
+	 opacity: 0.8;
+	 color:#00285e;
+	 font-family: 'Cinzel', serif;
+  }
+  /*footer styling*/
+  h2{
+	 font-style: italic;
+	 font-size: 15px;
+	 text-align: center;
+     background-color:white ;
+	 opacity: 0.8;
+	 color:#00285e;
+	 font-family: 'Cinzel', serif; 
+	} 
+   h3{
+	 border-style: outset;
+	 text-shadow: 1px 1px #25408d;
+	 color: white;
+	 font-family: 'Istok Web', sans-serif; 
+     text-align: center;	 
+   }
+  /*paragrapgh text styling*/
+  p{
+	color:#00285e;
+	font-family: 'Istok Web', sans-serif; 
+    font-size:.8em;	
+  }
+  /*bold styling*/
+  b{
+	text-shadow: 1px 1px #25408d;
+	text-decoration: underline;
+    color: #67b1ad;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;	
+  }
+  /*list stylings*/
+  ul.a{
+	 list-style-type:square; 
+	 font-size: 11px;
+	 color: white;
+	 font-family: 'Istok Web', sans-serif;
+  }
+  /*headshot photo*/
+  img{
+	  border-style: outset;
+      border-color: white;
+	}
+	
+  .outer-col-1 {
+    background: #25408d;
+    flex: 1;
+  }
+  
+  .outer-col-2 {
+    display: flex;
+    flex-direction: column;
+    flex: 5;
+  }
+  
+  .inner-row {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .inner-col {
+    flex: 4;
+  }
+  /*the paragrapgh bio in the middle*/
+  .inner-row article {
+	  min-height: 60vh;
+  }
+  /*image coloumn*/
+  .inner-row aside {
+    background: #b9c5b2;
+    flex: 1;
+   }
+  
+header, footer {
+    background-image:url("tealpattern.jpg");/*pattern that is used in the background*/
+    height: 20vh;
+  }
+/*padding for all the elements in the page*/
+  header, footer, article, nav, aside {
+    padding: 1em;
+  }

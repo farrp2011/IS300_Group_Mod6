@@ -80,8 +80,8 @@ Paul is cool and you need to give him money
             <div class="carousel-item active">
               <img class="d-block img-fluid w-100" src="img/slide-1.jpg" alt="">
               <div class="carousel-caption d-none d-md-block title_box">
-                <h3 class="text-shadow">First Slide</h3>
-                <p class="text-shadow">This is the caption for the first slide.</p>
+                <h3 class="text-shadow">Tobiyah Wilson</h3>
+                <p class="text-shadow">My nickname is Fawn.</p>
               </div>
             </div>
             <div class="carousel-item">

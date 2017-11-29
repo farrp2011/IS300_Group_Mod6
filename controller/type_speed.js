@@ -150,7 +150,7 @@ function mainLoop()
     {
         //ctx.fillStyle = "white";
         //we need to change the color based on where the word is
-        if(textF.value === wordArr[i].theWord)//if true then word was typed in
+        if(textF.value.toLowerCase() === wordArr[i].theWord.toLowerCase())//if true then word was typed in
         {//we need to remove it now
             wordArr.splice(i,1);//this removes word form array
             textF.value = "";//clear the text feild for next word
