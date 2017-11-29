@@ -1,0 +1,155 @@
+/*
+	Jennifer Sipes
+	IS300
+	11/29/2017
+	Module 6 - Individual Portfolio Page for GitHub (Updated from Module 1)
+	Stylesheet file
+	Inspiration: https://www.w3schools.com/howto/howto_css_parallax.asp
+*/
+
+/* Font downloaded from FontsForWeb.com */
+@font-face {
+	font-family: 'THEDREAM';
+	src: url('./THEDREAM.eot');
+	src: local('THEDREAM'), url('./THEDREAM.woff') format('woff'), url('./THEDREAM.ttf') format('truetype');
+}
+
+body, html {
+	height: 100%;
+	margin: 0;
+	font-family: "Candara", sans-serif;
+	color: #000;
+}
+
+.bgImage1, .bgImage2, .bgImage3 {
+	position: relative;
+	opacity: 0.65;
+	
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.bgImage1 {
+	background-image: url("DSC00984.JPG");
+	min-height: 100%;
+}
+
+.bgImage2 {
+	background-image: url("DSC00914.JPG");
+	min-height: 400px;
+}
+
+.bgImage3 {
+	background-image: url("DSC00209.JPG");
+	min-height: 400px;
+}
+
+.caption {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 100%;
+	text-align: right;
+	color: #000;
+}
+
+.caption span.border {
+	background-color: #330033;
+	box-shadow: 15px 10px 5px #000;
+	color: #ffe6ff;
+	padding: 18px;
+	font-size: 4em;
+	font-family: 'THEDREAM' !important;
+	letter-spacing: 10px;
+}
+
+.colorBlock {
+	color:#ffe6ff;
+	background-color:#1a001a;
+	text-align:center;
+	padding:50px 80px;
+	text-align: justify;
+}
+
+h2 {
+	letter-spacing: 5px;
+	font-variant: small-caps;
+	color: #111;
+}
+
+#profileHeading {
+	color: #ddff99;
+	text-align:center;
+}
+
+#profile {
+	color: #ddff99;
+	background-color: #1a001a;
+	text-align:center;
+	padding:50px 80px;
+	text-align: justify;
+}
+
+#colContainer {
+	border: 5px outset #ffe6ff;
+	display: block;
+	margin: auto;
+	padding: 3em;
+	overflow: hidden;
+	width: 80%;
+}
+
+#column1, #column2 {
+	display: block;
+	float: left;
+	margin: auto;
+	padding: 1em;
+	width: 46%;
+}
+
+.special {
+	color:#ddff99;
+	font-variant: small-caps;
+	font-weight: bold;
+}
+
+hr {
+	border-top: 1px solid #ffe6ff;
+	border-bottom: 1px solid #ffe6ff;
+}
+
+#wide {
+	width: 25%;
+}
+
+#narrow {
+	width: 12.5%;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+}
+
+ul li:before
+{
+    content: '\2727';
+	color: #ffe6ff;
+    margin: 0px 5px;
+}
+
+footer {
+	background-color: #1a001a;
+	color: #ffe6ff;
+	font-variant: small-caps;
+	text-align: center;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgImage1, .bgImage2, .bgImage3 {
+        background-attachment: scroll;
+	}
+}

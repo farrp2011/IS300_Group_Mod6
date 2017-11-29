@@ -94,7 +94,7 @@
       <div class="bg-faded p-4 my-4">
         <div class="card card-inverse">
           <!--<img class="card-img img-fluid w-100" src="img/slide-3.jpg" alt="">-->
-            <iframe class="profile_view" src="http://localhost/IS300_Group_Mod6/view/paul.html">
+            <iframe class="profile_view" src="http://localhost/IS300_Group_Mod6/view/jennifer_s/sipes_jennifer.html">
               <p>Your browser does not support iframes.</p>
             </iframe>
         </div>

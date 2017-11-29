@@ -75,6 +75,7 @@ Paul is cool and you need to give him money
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
           </ol>
           <div class="carousel-inner" role="listbox">
             <div class="carousel-item active">
@@ -96,6 +97,13 @@ Paul is cool and you need to give him money
               <div class="carousel-caption d-none d-md-block title_box">
                 <h3 class="text-shadow">Paul Farr</h3>
                 <p class="text-shadow">Lets split a six pack together.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block img-fluid w-100" src="img/slide-4.jpg" alt="">
+              <div class="carousel-caption d-none d-md-block title_box">
+                <h3 class="text-shadow">Todd Dunsmore</h3>
+                <p class="text-shadow">I work from 6:00am to 3:30pm.</p>
               </div>
             </div>
           </div>
