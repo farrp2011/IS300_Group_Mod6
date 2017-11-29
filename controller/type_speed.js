@@ -44,7 +44,8 @@ const WORD_LIST = ["hello","internet", "bird", "fun", "zoo", "about", "people",
     "blue", "yellow", "green", "pink", "orange", "purple", "black", "white", 
     "brown", "ball", "book", "train", "bike", "rain", "bubbles", "plane", 
     "bowl", "spoon", "house", "table", "monkey", "butterfly", "elephant", 
-    "zebra", "juice", "candy", "family", "cold", "earth", "snow", "baby"];
+    "zebra", "juice", "candy", "family", "cold", "earth", "snow", "baby",
+    "game", "car", "bus", "dad", "mom", "cow", "fish", "mail", "milk", "duck"];
 
 
 
@@ -160,7 +161,7 @@ function mainLoop()
            
            if(gameSpeed > 50)
            {
-               gameSpeed = gameSpeed - 10;
+               gameSpeed = gameSpeed - 15;
            }
             
         }

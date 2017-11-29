@@ -77,7 +77,7 @@
       <div class="bg-faded p-4 my-4">
         <div class="row">
           <div class="col-lg-6">
-            <img class="img-fluid mb-4 mb-lg-0" src="img/slide-2.jpg" alt="">
+              <img class="img-fluid mb-4 mb-lg-0" src="img/intro-pic.jpg" alt="">
           </div>
           <div class="col-lg-6">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam soluta dolore voluptatem, deleniti dignissimos excepturi veritatis cum hic sunt perferendis ipsum perspiciatis nam officiis sequi atque enim ut! Velit, consectetur.</p>

@@ -74,8 +74,8 @@
       </div>
         
       <div class="bg-faded p-4 my-4">
-        <div class="card card-inverse">
-            <div id="type_speed"></div>
+        <div class="card card-inverse ">
+            <div id="type_speed" style="margin-left: auto; margin-right: auto;display: block;"></div>
         </div>
       </div>
 

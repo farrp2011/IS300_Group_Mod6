@@ -87,8 +87,8 @@ Paul is cool and you need to give him money
             <div class="carousel-item">
               <img class="d-block img-fluid w-100" src="img/slide-2.jpg" alt="">
               <div class="carousel-caption d-none d-md-block title_box" >
-                <h3 class="text-shadow">Second Slide</h3>
-                <p class="text-shadow">This is the caption for the second slide.</p>
+                <h3 class="text-shadow">Jennifer Sipes</h3>
+                <p class="text-shadow">I have a rabbit named Frank.</p>
               </div>
             </div>
             <div class="carousel-item">
