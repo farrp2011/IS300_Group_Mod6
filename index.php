@@ -121,7 +121,7 @@ Paul is cool and you need to give him money
           <div class="text-heading text-muted text-lg">Welcome To </div>
           <h1 class="my-2"><?php echo SITE_NAME?></h1>
           <div class="text-heading text-muted text-lg">By
-            <strong>Start Bootstrap</strong>
+            <strong><?php echo GROUP_NAME ?></strong>
           </div>
         </div>
       </div>
